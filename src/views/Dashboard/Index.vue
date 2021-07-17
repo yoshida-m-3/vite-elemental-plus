@@ -1,15 +1,15 @@
 <template>
   <p>ダッシュボードのインデックス</p>
-  <Drawer />
+  <NavMenu />
 </template>
 
 <script lang="ts">
 import { defineComponent } from "@vue/runtime-core";
-import Drawer from "./components/Drawer.vue";
+import NavMenu from "./components/NavMenu.vue";
 export default defineComponent({
   name: 'Dashboard',
   components: {
-    Drawer,
+    NavMenu,
   },
 })
 </script>
